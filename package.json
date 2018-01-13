@@ -1,6 +1,6 @@
 {
   "name": "@azz/generator-npm-package",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate an npm package",
   "author": "Lucas Azzola <@azz>",
   "files": ["generators"],

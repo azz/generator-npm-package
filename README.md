@@ -52,8 +52,11 @@ $ yo @azz/npm-package
 ## Produces
 
 ```shellsession
-$ tree -I node_modules
+$ tree -I 'node_modules|.git' -a
 .
+├── .gitignore
+├── .prettierignore
+├── .travis.yml
 ├── LICENSE
 ├── README.md
 ├── dist
@@ -62,6 +65,4 @@ $ tree -I node_modules
 ├── src
 │   └── index.js
 └── yarn.lock
-
-2 directories, 6 files
 ```
